@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}" 
   ],
   theme: {
-    extend: {},
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '90%': '90%',
+      '16': '4rem',
+    },
+    extend: {
+      fontFamily: {
+        rajdhani: ['Rajdhani'],
+      },
+    },
   },
   plugins: [],
 }
