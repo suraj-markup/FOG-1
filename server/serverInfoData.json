@@ -1,0 +1,37 @@
+{
+    "players": "60/64",
+    "ping": "104ms",
+    "tickrate": "60 Hz",
+    "settings": {
+        "REGION": "EUROPE - DE",
+        "PUNKBUSTER": "ON",
+        "FAIRFIGHT": "ON",
+        "PASSWORD": "OFF",
+        "PRESET": "NORMAL"
+    },
+    "advanced": {
+        "MINIMAP": "ON",
+        "ONLY SQUAD LEADER SPAWN": "OFF",
+        "VEHICLES": "ON",
+        "TEAM BALANCE": "ON",
+        "MINIMAP SPOTTING": "ON",
+        "HUD": "ON",
+        "3P VEHICLE CAM": "ON",
+        "REGENRATIVE HEALTH": "ON",
+        "KILL CAM": "OFF",
+        "FRIENDLY FIRE": "OFF",
+        "3D SPOTTING": "ON",
+        "ENEMEY NAME TAGS": "ON"
+    },
+    "rules": {
+        "TICKETS": 400,
+        "VEHICLE SPAWN DELAY": 25,
+        "BULLET DAMAGE": 100,
+        "KICK AFTER TEAM KILLS": 5,
+        "PLAYER HEALTH": 100,
+        "PLAYER RESPAWN TIME": 100,
+        "KICK AFTER IDLE": 300,
+        "BAN AFTER KICKS": 3
+    }
+}
+
