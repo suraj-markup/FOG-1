@@ -60,11 +60,31 @@ const mapData = [
       map: "GOLMUD RAILWAY",
       img: "images/map-rotation/map-rotation-6.png",
     },
+    {
+      title: "CONQUEST LARGE",
+      map: "SIEGE OF SHANGHAI",
+      img: "images/map-rotation/map-rotation-5.png",
+    },
+    {
+      title: "CONQUEST LARGE",
+      map: "GOLMUD RAILWAY",
+      img: "images/map-rotation/map-rotation-6.png",
+    },
+    {
+      title: "CONQUEST LARGE",
+      map: "DAWNBREAKER",
+      img: "images/map-rotation/map-rotation-1.png",
+    },
+    {
+      title: "CONQUEST LARGE",
+      map: "PROPAGANDA",
+      img: "images/map-rotation/map-rotation-2.png",
+    }
   ];
   
   const Map = () => {
     return (
-      <div className="flex flex-row flex-wrap justify-start gap-x-10 gap-y-4 mt-3">
+      <div className="flex flex-row flex-wrap justify-center sm:justify-start gap-x-10 gap-y-4 mt-3">
       {mapData.map((map, key) => (
         <div
           key={key}

@@ -22,17 +22,20 @@ function App() {
   }
   return (
     <div className="bg-[url('/images/bg.jpg')] bg-no-repeat bg-cover bg-center h-auto font-rajdhani overflow-hidden">
-      <div className="bg-black bg-opacity-60 w-full h-auto flex flex-row">
-        <div className="w-[10%] sm:w-[20%] md:w-[50%] lg:w-[20%] xl:w-[10%]">
+      <div className="bg-black bg-opacity-60 w-full h-screen flex flex-row">
+        <div className="w-[13%] sm:w-[10%] md:w-[7%] lg:w-[6%] xl:w-[5%]">
         <Sidebar/>
         </div>
-        <div className="w-auto">
-          <div className="mt-5 ml-10">
+        
+        <div className="flex-1">
+       
+
+          <div className="mt-5 ml-5 md:ml-10">
             <p className="flex flex-row gap-3 text-white text-[12px]"><img alt="back" src="https://cdn.prod.website-files.com/6013fff62154adaa4600f932/601ab21dde67c22de2b6d61b_back.svg" className="opacity-60 hover:opacity-100"/><span className="hover:font-bold ">MULTIPLAYER</span> / <span className="hover:font-bold">SERVER BROWSER</span> /</p>
             <p className="text-white text-3xl font-bold">SERVER INFO</p>
           </div>
 
-          <div className="scrollbar-w-5 scrollbar scrollbar-thumb-white scrollbar-track-slate-700  overflow-y-scroll  text-white ml-10 mt-14 w-5/6 md:w-3/4 h-[80vh]  ">
+          <div className="scrollbar-w-5 scrollbar scrollbar-thumb-white scrollbar-track-slate-700  overflow-y-scroll  text-white ml-5 md:ml-10 mt-14 w-5/6 md:w-3/4 h-[80vh]  ">
             <h3 className="text-2xl font-bold">! RC3-BASEMAPS</h3>
             <p className="flex gap-1 md:gap-3 text-sm text-gray-300 font-bold">
               <img alt="flag" src="https://cdn.prod.website-files.com/6022d2c0d37628c87d9e16ab/6022d74ce15ae958f20e10a9_america-flag.svg"/>
@@ -103,16 +106,17 @@ function App() {
               <Map/>
             </div>
 
-
-
-            
           </div>
+       
+
         </div>
 
 
-        <div className="" >
-        <RightSide/>
+        <div className="relative">
+        <div className="h-full w-14 sm:w-16 md:w-20 lg:w-20 hover:bg-black hover:bg-opacity-70 hover:w-28 sm:hover:w-32 md:hover:w-52  transition-all duration-300 absolute top-0 right-0">
+          <RightSide />
         </div>
+      </div>
 
       </div>
     </div>

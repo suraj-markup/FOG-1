@@ -1,116 +1,66 @@
+  const RightSide = () => {
+    return (
+      <div className=" h-screen text-white overflow-hidden group">
+        <div>
+          <div className="p-2 m-2 border-t-[1px] border-gray-600 border-solid mt-8">
+            <div className="flex flex-row gap-2 text-[12px] ">
+              <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab15999e303e7c202c28c_squad.svg" />
+              <p className="hidden group-hover:block">SQUAD</p>
+            </div>
+            <div className="flex flex-row  group/1 mt-2">
+              <div className="w-8 h-9 flex justify-center items-center bg-gray-600 text-black group-hover/1:bg-black group-hover/1:text-white ">
+                +
+              </div>
+              <p className="pl-2 w-full hidden group-hover/1:text-black group-hover/1:bg-white group-hover:flex items-center text-sm ">
+                Squad Join
+              </p>
+            </div>
+          </div>
+
+          <div className="p-2 m-2 border-t-[1px] border-gray-600 border-solid mt-2">
+            <div className="flex flex-row gap-2 text-[12px] ">
+              <img
+                src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab159d334e32483dbbcbb_online.svg"
+                alt="Online Avatar"
+              />
+              <p className="hidden group-hover:block">ONLINE</p>
+            </div>
+            <div className="flex flex-row  group mt-2 border-l-[3px] group/2 border-green-600 border-solid">
+              <img
+                alt="online"
+                src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1585908791f051d4af4_home__friend-picture-MaryJane.png"
+              />
+              <div className="pl-2 w-full hidden group-hover/2:text-black group-hover/2:bg-white group-hover:flex flex-col justify-center items-start text-[12px] ">
+                <p>MaryJane</p>
+                <p className="text-[10px] text-gray-400 font-bold">Online</p>
+              </div>
+            </div>
+          </div>
 
 
-const RightSide = () => {
-  return (
-    <div className=" h-screen flex flex-col justify-between border-r-gray-500 border-solid border-r-[1px] w-12 sm:w-16 md:w-20 lg:w-24 sm:hover:w-18 md:hover:w-32 lg:hover:w-52 transition-all duration-300">
-    {/* Main Section */}
-    <div className="flex flex-col gap-3 justify-center mt-32">
-  
-      <div className="relative group">
-        <img
-          alt="Battlefield 5"
-          src="/images/side-menu/bf5.png"
-          className="ml-5 size-7 h-full opacity-50 hover:opacity-100"
-        />
-        <span className="absolute left-12 top-1/2 -translate-y-1/2 bg-black text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Battlefield 5
-        </span>
-      </div>
-     
-      <div className="relative group">
-        <img
-          alt="Battlefield 1"
-          src="/images/side-menu/bf1.png"
-          className="ml-5 size-7 h-full opacity-50 hover:opacity-100"
-        />
-        <span className="absolute left-12 top-1/2 -translate-y-1/2 bg-black text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Battlefield 1
-        </span>
-      </div>
-   
-      <div className="relative group border-l-2 border-yellow-700">
-        <img
-          alt="Battlefield 4"
-          src="/images/side-menu/bf4.png"
-          className="ml-5 size-7 h-full opacity-70 hover:opacity-100"
-        />
-        <span className="absolute left-12 top-1/2 -translate-y-1/2 bg-black text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Battlefield 4
-        </span>
-      </div>
-     
-      <div className="relative group">
-        <img
-          alt="Hardline"
-          src="/images/side-menu/hardline.png"
-          className="ml-5 size-7 h-full opacity-50 hover:opacity-100"
-        />
-        <span className="absolute left-12 top-1/2 -translate-y-1/2 bg-black text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Hardline
-        </span>
-      </div>
-    
-      <div className="relative group">
-        <img
-          alt="Career"
-          src="/images/side-menu/career.png"
-          className="ml-5 size-7 h-full opacity-50 hover:opacity-100"
-        />
-        <span className="absolute left-12 top-1/2 -translate-y-1/2 bg-black text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Career
-        </span>
-      </div>
+          <div className="p-2 m-2 border-t-[1px] border-gray-600 border-solid mt-2">
+            <div className="flex flex-row gap-2 text-[12px] ">
+              <img
+                src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab15904900760dbfa7f70_offline.svg"
+                alt="offline Avatar"
+              />
+              <p className="hidden group-hover:block">OFFLINE</p>
+            </div>
+            <div className="flex flex-row  group mt-2 border-l-[3px] opacity-50 hover:opacity-100 group/3">
+              <img
+                alt="offline"
+                src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1583424fd3ddf23a848_home__friend-picture-420.png"
+              />
+              <div className="pl-2 w-full hidden group-hover/3:text-black group-hover/3:bg-white group-hover:flex flex-col justify-center items-start text-[12px] ">
+                <p>420</p>
+                <p className="text-[10px] text-gray-400 font-bold">Online</p>
+              </div>
+            </div>
+          </div>
 
-    
-      <div className="relative group">
-        <img
-          alt="watch"
-          src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601aafab68a3c97a6a478b8d_side-menu__watch.svg"
-          className="ml-5 size-7 h-full opacity-50 hover:opacity-100"
-        />
-        <span className="absolute left-12 top-1/2 -translate-y-1/2 bg-black text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Watch
-        </span>
+        </div>
       </div>
+    );
+  };
 
-      <div className="relative group">
-        <img
-          alt="watch"
-          src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601aafab332f0ade9870b435_side-menu__news.svg"
-          className="ml-5 size-7 h-full opacity-50 hover:opacity-100"
-        />
-        <span className="absolute left-12 top-1/2 -translate-y-1/2 bg-black text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          News
-        </span>
-      </div>
-
-    </div>
-
-    {/* Bottom Section */}
-    <div className="flex flex-col gap-6 justify-center items-center mb-8">
-      <div className="relative group">
-        <img
-          alt="Help"
-          src="/images/question_mark.png"
-          className="size-5 opacity-50 hover:opacity-100"
-        />
-        <span className="absolute left-7 top-1/2 -translate-y-1/2 bg-black text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Help
-        </span>
-      </div>
-      <div className="relative group">
-        <img
-          alt="Power Button"
-          src="/images/power_button.png"
-          className="size-5 opacity-50 hover:opacity-100"
-        />
-        <span className="absolute left-7 top-1/2 -translate-y-1/2 bg-black text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          Power Button
-        </span>
-      </div>
-    </div>
-  </div>
-  )
-}
-
-export default RightSide
+  export default RightSide;
