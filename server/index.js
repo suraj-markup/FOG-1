@@ -6,7 +6,7 @@ const serverInfoData=require("./serverInfoData");
 
 app.use(cors(
     {
-        origin: "http://localhost:5173/",
+        origin: "https://fog-1-frontend.vercel.app/",
         methods: ["GET", "POST"],
         credentials: true
       }
